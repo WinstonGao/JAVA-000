@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "spring.example",
+      "type": "org.example.properties.ExampleProperties",
+      "sourceType": "org.example.properties.ExampleProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.example.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether enable example or not",
+      "sourceType": "org.example.properties.ExampleProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.example.name",
+      "type": "java.lang.String",
+      "sourceType": "org.example.properties.ExampleProperties"
+    }
+  ],
+  "hints": []
+}
